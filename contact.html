@@ -37,6 +37,39 @@
             </div>
         </header>
     </div>
+    <!-- Contact form -->
+<div class="background-image">
+
+    <form method="post" action="https://formdump.codeinstitute.net/" class="contact">
+        <h2>Get in contact <i class="fa-brands fa-forumbee"></i></h2>
+
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" class="text-input" placeholder="Your first name" required>
+
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" class="text-input" placeholder="Your last name" required>
+
+        <label for="email">E-mail Address</label>
+        <input id="email" type="email" class="text-input" placeholder="Your e-mail address" required>
+
+        <label for="product-choice">Which product are you interested in?</label>
+        <input type="text" id="product-choice" list="products" name="our-products" class="text-input" placeholder="Choose product">
+        <datalist id="products">
+            <option value="Large (250g)">250g</option>
+            <option value="Medium (130g)">130g</option>
+            <option value="Small (90g)">90g</option>
+            <option value="Favour (50g)">50g</option>
+        </datalist>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" placeholder="Lets us know how we can help!" rows="5"></textarea>
+
+        <input type="submit" value="Submit" class="button">
+    </form>
+</div>
+
+ <!-- Font Awesome script-->
+ <script src="https://kit.fontawesome.com/07e5d5c5ba.js" crossorigin="anonymous"></script>
 
 </body>
 
