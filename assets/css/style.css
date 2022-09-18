@@ -12,3 +12,57 @@ body {
     color: darkslateblue;
     background-color: #FDF9F0;
 }
+
+/* headings and logo style*/
+
+.header1 {
+    background-color: #e9ca1b;
+    height: 75px;
+}
+
+h1,
+h2 {
+    font-family: Antonio, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: darkslategrey;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 20px;
+}
+
+#menu {
+    float: right;
+    font-size: 110%;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+}
+
+#menu a:hover {
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+}
+
+.active {
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+}
