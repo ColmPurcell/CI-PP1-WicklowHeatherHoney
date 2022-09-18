@@ -302,3 +302,31 @@ label {
 .footer p {
     padding: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    #main-page-grid {
+        clear: both;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 100px;
+        padding: 100px;
+        height: 100%;
+        object-fit: scale-down; 
+    }
+    .mission1 {
+        grid-row: 1;
+    }
+
+    .mission2 {
+        grid-row: 2;
+    }
+
+    .about3 {
+        grid-row: 3;
+    }
+
+    .about4 {
+        grid-row: 4;
+    }
+}
