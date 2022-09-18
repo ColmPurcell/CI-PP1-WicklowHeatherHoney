@@ -72,7 +72,8 @@ h2 {
     position: relative;
     clear: both;
 }
-#honey{
+
+#honey {
     width: 100%;
     height: 600px;
     object-fit: cover;
@@ -84,13 +85,13 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-
+    
     width: 120px;
     height: 250px;
 
     padding: 10px;
 
-    background-color: rgba(255 ,215 ,0, 0.7);
+    background-color: rgba(255, 215, 0, 0.7);
 
     bottom: 50px;
     left: 50px;
