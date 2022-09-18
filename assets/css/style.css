@@ -13,13 +13,6 @@ body {
     background-color: #FDF9F0;
 }
 
-/* headings and logo style*/
-
-.header1 {
-    background-color: #e9ca1b;
-    height: 75px;
-}
-
 h1,
 h2 {
     font-family: Antonio, sans-serif;
@@ -27,6 +20,13 @@ h2 {
     letter-spacing: 4px;
     font-weight: 400;
     color: darkslategrey;
+}
+
+/* headings and logo style*/
+
+.header1 {
+    background-color: #e9ca1b;
+    height: 75px;
 }
 
 #logo {
@@ -207,7 +207,7 @@ label {
     object-fit: scale-down;
 }
 
-img {
+.grid-container img {
     height: auto;
     width: 100%;
 }
