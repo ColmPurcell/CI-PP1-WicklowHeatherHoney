@@ -123,10 +123,11 @@ h2 {
     font-weight: 800;
 }
 
-#main-page-grid h2, p {
+#main-page-grid h2 {
     padding: 10px 0;
     letter-spacing: 2px;
 }
+
 
 
 #main-page-grid p {
@@ -134,7 +135,10 @@ h2 {
     font-size: large;
 }
 
-
+#main-page-grid p {
+    letter-spacing: 2px;
+    padding-top: 0;
+}
 
 /* Contact form */
 
