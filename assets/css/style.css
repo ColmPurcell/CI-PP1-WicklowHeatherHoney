@@ -99,6 +99,42 @@ h2 {
     position: absolute;
 }
 
+/* Our Mission and About us section */
+
+#main-page-grid {
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 100px;
+    padding: 30px;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+#main-page-grid img {
+    height: auto;
+    width: 100%;
+}
+
+#main-page-grid h2 {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#main-page-grid h2, p {
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+
+
+#main-page-grid p {
+    font-weight: 600;
+    font-size: large;
+}
+
+
+
 /* Contact form */
 
 .background-image {
