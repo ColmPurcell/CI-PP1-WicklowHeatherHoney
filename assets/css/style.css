@@ -77,3 +77,23 @@ h2 {
     height: 600px;
     object-fit: cover;
 }
+
+.cover-text {
+    font-size: 130%;
+    font-family: Antonio, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 120px;
+    height: 250px;
+
+    padding: 10px;
+
+    background-color: rgba(255 ,215 ,0, 0.7);
+
+    bottom: 50px;
+    left: 50px;
+
+    position: absolute;
+}
