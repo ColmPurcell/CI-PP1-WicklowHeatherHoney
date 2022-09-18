@@ -135,6 +135,21 @@ h2 {
     padding-top: 0;
 }
 
+/* Where to find us section and google map iframe*/
+
+.find h3, h4 {
+    text-align: center;
+}
+
+.find h3 {
+    font-size: x-large;
+}
+
+.find h4 {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
 /* Contact form */
 
 .background-image {
