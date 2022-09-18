@@ -85,7 +85,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    
+
     width: 120px;
     height: 250px;
 
@@ -97,4 +97,72 @@ h2 {
     left: 50px;
 
     position: absolute;
+}
+
+/* Contact form */
+
+.background-image {
+    background-image: url(../images/mountain-heather.jpeg);
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+.contact {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 600px;
+    padding: 15px;
+    background-color: rgba(233, 202, 27, 0.75);
+    font-size: x-large;
+}
+
+.text-input {
+    width: 90%;
+    padding: 15px;
+    margin: 15px;
+}
+
+#comments {
+    width: 90%;
+    padding: 15px;
+    margin: 15px;
+}
+
+::placeholder {
+    font-size: x-large;
+    font-family: Source Sans Pro, sans-serif;
+    opacity: 0.7;
+}
+
+.button {
+    font-size: x-large;
+    background-color: white;
+    font-family: Source Sans Pro, sans-serif;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid darkslategrey;
+    border-radius: 15%;
+}
+
+.button:hover {
+    background-color: darkslategray;
+    border: 1px solid white;
+    color: white;
+}
+
+label {
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px;
+}
+
+.background-image h2 {
+    padding: 10px;
+    margin: 10px;
 }
