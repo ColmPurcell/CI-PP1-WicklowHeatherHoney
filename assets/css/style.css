@@ -303,6 +303,8 @@ label {
     padding: 0;
 }
 
+/* Media queries for smaller screens and tablets */
+
 @media screen and (max-width: 1200px) {
     #main-page-grid {
         clear: both;
