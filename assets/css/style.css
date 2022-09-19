@@ -435,6 +435,10 @@ p {
         font-size: 60%;
         margin-left: 20px;
     }
+
+    .footer .social a {
+        margin: 0 35px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -462,5 +466,9 @@ p {
         float: left;
         font-size: 30%;
         margin-left: 20px;
+    }
+
+    .footer .social a {
+        margin: 0 10px;
     }
 }
