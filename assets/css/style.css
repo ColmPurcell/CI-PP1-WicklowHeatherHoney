@@ -341,7 +341,7 @@ p {
     }
 
     .footer .social a {
-        margin: 0 65px;
+        margin: 0 40px;
     }
 
     .product-text {
@@ -364,99 +364,6 @@ p {
         height: 100%;
         object-fit: scale-down;
     }
-
-    .header1 {
-        height: 150px;
-    }
-
-    #logo {
-        float: left;
-        font-size: 390%;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 120%;
-        margin-left: 20px;
-    }
-
-    #menu li {
-        float: left;
-        list-style-type: none;
-        margin-right: 20px;
-    }
-
-}
-
-@media screen and (max-width: 685px) {
-
-    .header1 {
-        height: 150px;
-    }
-
-    #logo {
-        float: left;
-        font-size: 300%;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 80%;
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-
-    #logo {
-        float: left;
-        font-size: 210%;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 60%;
-        margin-left: 20px;
-    }
-
-    .footer .social a {
-        margin: 0 35px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #logo {
-        float: left;
-        font-size: 180%;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 50%;
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    #logo {
-        float: left;
-        font-size: 108%;
-        margin-left: 20px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 30%;
-        margin-left: 20px;
-    }
-
-    .footer .social a {
-        margin: 0 10px;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -470,6 +377,5 @@ p {
 
     .newheader-right {
         float: none;
-
     }
 }
