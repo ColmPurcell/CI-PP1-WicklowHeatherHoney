@@ -28,30 +28,31 @@ h2 {
     overflow: hidden;
     background-color: #e9ca1b;
     padding: 20px 10px;
-   }
-   
-   .newheader a {
+}
+
+.newheader a {
     float: left;
     color: darkslategrey;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 20px;
     line-height: 25px;
     font-weight: 800;
-    
-   }
-   
-   .newheader a .active, a:hover {
+
+}
+
+.newheader a .active,
+a:hover {
     border-top: 2px solid darkslategray;
     border-bottom: 2px solid darkslategray;
-   }
-   
-   .newheader-right {
+}
+
+.newheader-right {
     float: right;
-   }
-   
-   /*old header below*/
+}
+
+/*old header below*/
 
 
 .header1 {
@@ -500,5 +501,20 @@ p {
 
     .footer .social a {
         margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .newheader a {
+        float: none;
+        display: block;
+        text-align: center;
+        font-size: 88%;
+        font-weight: 600;
+    }
+
+    .newheader-right {
+        float: none;
+
     }
 }
