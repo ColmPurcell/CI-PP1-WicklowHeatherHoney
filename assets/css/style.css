@@ -388,6 +388,8 @@ p {
     /*contact form media query*/
     .contact {
         font-size: large;
+        bottom: 150px;
+        top: 150px;
     }
     
     .text-input {
