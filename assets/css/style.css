@@ -42,8 +42,12 @@ h2 {
 
 }
 
-.newheader a .active,
-a:hover {
+.newheader a.active {
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+}
+
+.newheader a:hover {
     border-top: 2px solid darkslategray;
     border-bottom: 2px solid darkslategray;
 }
