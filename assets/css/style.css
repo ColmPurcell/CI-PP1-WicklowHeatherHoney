@@ -24,6 +24,36 @@ h2 {
 
 /* headings and logo style*/
 
+.newheader {
+    overflow: hidden;
+    background-color: #e9ca1b;
+    padding: 20px 10px;
+   }
+   
+   .newheader a {
+    float: left;
+    color: darkslategrey;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    font-weight: 800;
+    
+   }
+   
+   .newheader a .active, a:hover {
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+   }
+   
+   .newheader-right {
+    float: right;
+   }
+   
+   /*old header below*/
+
+
 .header1 {
     background-color: #e9ca1b;
     height: 75px;
