@@ -207,6 +207,11 @@ label {
 .background-image h2 {
     padding: 10px;
     margin: 10px;
+    text-align: center;
+}
+
+.background-image p {
+    text-align: center;
 }
 
 /* Product banner and cover text */
@@ -380,5 +385,23 @@ p {
     .newheader-right {
         float: none;
     }
-
+    /*contact form media query*/
+    .contact {
+        font-size: large;
+    }
+    
+    .text-input {
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    #comments {
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    ::placeholder {
+        font-size: large;
+    }
+    
 }
