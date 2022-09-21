@@ -390,30 +390,32 @@ p {
     .newheader-right {
         float: none;
     }
+
     /*contact form media query*/
     .contact {
         font-size: large;
         bottom: 150px;
         top: 150px;
     }
-    
+
     .text-input {
         padding: 5px;
         margin: 5px;
     }
-    
+
     #comments {
         padding: 5px;
         margin: 5px;
     }
-    
+
     ::placeholder {
         font-size: large;
     }
-    
+
     /* Footer media query */
 
     .footer .social a {
         font-size: 30px;
     }
+
 }
