@@ -411,4 +411,9 @@ p {
         font-size: large;
     }
     
+    /* Footer media query */
+
+    .footer .social a {
+        font-size: 30px;
+    }
 }
