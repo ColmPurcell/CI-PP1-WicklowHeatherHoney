@@ -66,6 +66,7 @@ To provide information for people looking for 100% Natural Heather Honey produce
 ### Colour Scheme:
 
 ![Color Palette](/assets/docs/color-palette.png)
+
 The colour palette was chosen with accessibility in mind. The yellow colour #E9CA1B used in both the header and the footer was chosen to represent the golden honey. Text colours of darkslategrey and darkslateblue in combination with the off-white background colour of #F9F9F0 used for the body of the page allow for easy readability while not being overwhelming. The website [mycolor.space](https://mycolor.space/) was used to create the color palette.
 
 ### Typography:
