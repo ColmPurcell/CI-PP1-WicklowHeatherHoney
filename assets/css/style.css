@@ -127,6 +127,11 @@ h2 {
 
 /* Where to find us section and google map iframe*/
 
+.map {
+    width: 100%;
+    height: 400px;
+}
+
 .find h3,
 h4 {
     text-align: center;
