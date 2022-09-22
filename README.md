@@ -123,11 +123,13 @@ The site was tested on a range of devices including iphone 11 and 13, Samsung Ga
 2. The social media icons on mobile were appearing over two lines.
  - Fix: Used media query to display the icons at a smaller size on screens below 500px
 3. Header and navigation menu were too big on smaller screens and text appeared outside of the header area.
- -Fix: Created a new header and navigation bar using a [guide](https://frontendgyaan.com/how-to-create-a-responsive-header-menu-with-css/) on frontendgyann.com. I reused the logo and nav elements from my previous header and styled it to match my website.
- 4. Images and text area appeared too narrow on mission and about section on home page.
-  -Fix: Changed the main-page-grid padding from px to % made the page responsive on smaller screens.
+ - Fix: Created a new header and navigation bar using a [guide](https://frontendgyaan.com/how-to-create-a-responsive-header-menu-with-css/) on frontendgyann.com. I reused the logo and nav elements from my previous header and styled it to match my website.
+4. Images and text area appeared too narrow on mission and about section on home page.
+ - Fix: Changed the main-page-grid padding from px to % made the page responsive on smaller screens.
+5. Incorrect font used for product banner.
+ - Fix: Styled banner heading to the correct font.
 
-  There are no know unfixed bugs and the project will mnow be submitted.
+  There are no know unfixed bugs and the project will now be submitted.
 
 ## Technologies Used
 
@@ -144,5 +146,30 @@ The site was tested on a range of devices including iphone 11 and 13, Samsung Ga
 - Balsamiq: Used to create wireframe mock-ups of the project.
 - google Maps: Used to add map iframe to home page.
 
-## Deployment
+## Deployment:
+
+Gitpod was used as the development environment, where regular commits and pushes to github were made and tracked.
+The live version of the project site is deployed using Github pages and can be found [here](https://colmpurcell.github.io/CI-PP1-WicklowHeatherHoney/).
+
+The steps for deployment are as follows:
+- Log into Github.
+- Locate the GitHub Repository to be deployed live.
+- At the top of the repository, select Settings from the menu items.
+- In the "Code and automation" section of the sidebar, click Pages.
+- At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+- The website will be deployed and the page will refresh to provide the live link to the page.
+
+## Media
+
+All images were taken from [pexels.com](https://www.pexels.com/)
+
+- [Clear glass bowl beside yellow flowers](https://www.pexels.com/photo/clear-glass-bowl-beside-yellow-flower-1638280/) by Mareefe
+- [A man in beige beekeeper suit holding a hive frame](https://www.pexels.com/photo/a-man-in-beige-beekeeper-suit-holding-a-hive-frame-4505624/) by Dmitry Glazunov
+- [Crop beekeeper holding honeycomb in yard](https://www.pexels.com/photo/crop-beekeeper-holding-honeycomb-in-yard-5247968/) by Anete Lusina
+- [Liquid yellow honey in a glass jar](https://www.pexels.com/photo/liquid-yellow-honey-in-a-glass-jar-5634206/) by Adonyi Gábor
+- [A honey in the jar](https://www.pexels.com/photo/a-honey-in-the-jar-5634213/) by Adonyi Gábor
+- [Studio shot of honey with wooden stirring tool](https://www.pexels.com/photo/studio-shot-of-honey-with-wooden-stirring-tool-5634205/) by Adonyi Gábor
+- [Jar of honey and a lemon](https://www.pexels.com/photo/jar-of-honey-and-a-lemon-6588618/) by ROMAN ODINTSOV
+- [Heather flowers on a field](https://www.pexels.com/photo/heather-flowers-on-a-field-5337623/) by Ylanite Koppens
+- [Calluna vulgaris blooming in field](https://www.pexels.com/photo/calluna-vulgaris-blooming-in-field-5407565/) by Kieren Ridley
 
