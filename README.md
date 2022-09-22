@@ -107,11 +107,42 @@ The code validation was tested using [W3C validator](https://validator.w3.org/) 
 
 The code validation was tested using [Jigsaw validator](https://jigsaw.w3.org/css-validator/) for css with no issues found.
 
-## Lighthouse Audit:
+### Lighthouse Audit:
 
-![Lighthouse](assets/docs/lighthouse-audit.png)
+![Lighthouse](assets/docs/audit-lighthousea.png)
 
 A performance audit was carried out using [web.dev/measure](https://web.dev/measure/) and the site scores high across all areas with scores of 100 for both Accessibility and Best Practices.
 
 The site was tested using Chrome, Safari & Edge browers with no issues.
-The site was tested on a range of devices including iphone 11 and 13, Samsung Galaxy S10 and 
+The site was tested on a range of devices including iphone 11 and 13, Samsung Galaxy S10 and A70 and Lenovo Smart Tab M10 plus with no issues found.
+
+### Bugs and fixes:
+
+1. Form data not being sent for both name and email fields on contact page.
+ - Fix: The inputs for first name, last name and e-mail weren't named. Once these inputs were named correctly the form worked as it should and all information was sent correctly.
+2. The social media icons on mobile were appearing over two lines.
+ - Fix: Used media query to display the icons at a smaller size on screens below 500px
+3. Header and navigation menu were too big on smaller screens and text appeared outside of the header area.
+ -Fix: Created a new header and navigation bar using a [guide](https://frontendgyaan.com/how-to-create-a-responsive-header-menu-with-css/) on frontendgyann.com. I reused the logo and nav elements from my previous header and styled it to match my website.
+ 4. Images and text area appeared too narrow on mission and about section on home page.
+  -Fix: Changed the main-page-grid padding from px to % made the page responsive on smaller screens.
+
+  There are no know unfixed bugs and the project will mnow be submitted.
+
+## Technologies Used
+
+### Main Languages Used:
+
+- HTML5
+- CSS3
+
+### Libraries, Frameworks and Programmes:
+- Font Awesome: Used for icons for social media on the footer and bee and phone icon on the contact form.
+- Google Fonts: Used to import the fonts Antonio ans Source Sans Pro used for the headings and paragraphs respectively. A back up of sans-serif was used also.
+- Github: Used to store my repository and deploy my page.
+- Gitpod: Used to edit my code and push code to github.
+- Balsamiq: Used to create wireframe mock-ups of the project.
+- google Maps: Used to add map iframe to home page.
+
+## Deployment
+
