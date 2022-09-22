@@ -8,7 +8,36 @@ The websites intent is to show our audience the products available, where we can
 The deployed live website can be found [here](https://colmpurcell.github.io/CI-PP1-WicklowHeatherHoney/)
 
 ## Table of Content
-To be added later
+
+1. [UX](#ux)
+    1. [Site Goal](#site-goal)
+    2. [Site Demographics](#site-demographics)
+    3. [Existing User Goals](#existing-user-goals)
+    4. [New User Goals](#new-user-goals)
+2. [Design](#design)
+    1. [Colour Scheme](#colour-scheme)
+    2. [Typography](#typography)
+    3. [Images](#images)
+3. [Features](#features)
+    1. [Header With Navigation Menu](#header-with-navigation-menu)
+    2. [Footer With Social Media Links](#footer-with-social-media-links)
+    3. [Main Page Hero Image](#main-page-hero-image)
+    4. [Our Mission & About Us section](#our-mission-and-about-us-sections)
+    5. [Google Maps iframe](#google-map-iframe)
+    6. [Our Products Section](#our-products-section)
+    7. [Contact Us Section](#contact-us-section)
+4. [Testing](#testing)
+    1. [Validator Testing](#validator-testing)
+    2. [Lighthouse audit](#lighthouse-audit)
+    3. [Bugs & Fixes](#bugs-and-fixes)
+5. [Technologies Used](#technologies-used)
+    1. [Main Languages Used](#main-languages-used)
+    2. [Libraries, Frameworks and Programmes](#libraries-frameworks-and-programmes)
+6. [Deployment](#deployment)
+7. [Media](#media)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
+
 
 ## UX
 
@@ -36,7 +65,7 @@ To provide information for people looking for 100% Natural Heather Honey produce
 
 ### Colour Scheme:
 
-The colour palette was chosen with accessibility in mind. The yellow colour #E9CA1B used in both the header and the footer was chosen to represent the golden honey. Text colours of darkslategrey and darkslateblue in combination with the off white background colour of #F9F9F0 used for the body of the page allow for easy readability while not being overwhelming. The website [mycolor.space](https://mycolor.space/) aws used to create the color palette.
+The colour palette was chosen with accessibility in mind. The yellow colour #E9CA1B used in both the header and the footer was chosen to represent the golden honey. Text colours of darkslategrey and darkslateblue in combination with the off-white background colour of #F9F9F0 used for the body of the page allow for easy readability while not being overwhelming. The website [mycolor.space](https://mycolor.space/) was used to create the color palette.
 ![Color Palette](/assets/docs/color-palette.png)
 
 ### Typography:
@@ -49,20 +78,20 @@ These fonts in combination give a clean appearance and high readability.
 
 ### Images:
 
-All images where taken from the free images website [Plexels.com](https://www.pexels.com/) and will be credited in the credits section. Images where chosen to have a consistant feel across the site.
+All images were taken from the free images website [Plexels.com](https://www.pexels.com/) and will be credited in the credits section. Images were chosen to have a consistent feel across the site.
 
 ## Features
 
 ### Header with navigation menu:
 
 ![Header](assets/docs/header-feature.png)
-The Header apperars across all pages. It features a logo and navigation menu which highlights which page you are currently on. The logo and menu items highlight when a user hovers over them. The logo when clicked brings users back to the home page It is fully responsive on smaller screens.
+The Header appears across all pages. It features a logo and navigation menu which highlights which page you are currently on. The logo and menu items highlight when a user hovers over them. The logo when clicked brings users back to the home page It is fully responsive on smaller screens.
 
 
 ### Footer with social media links:
 
 ![Footer](assets/docs/footer-feature.png)
-The Footer apperars across all pages. It features social media icons which highlight when a user hovers over them and links to the relavent social media pages opening in a new tab. It is fully responsive on smaller screens.
+The Footer appears across all pages. It features social media icons which highlight when a user hovers over them and links to the relevant social media pages opening in a new tab. It is fully responsive on smaller screens.
 
 ### Main Page Hero Image:
 
@@ -75,7 +104,7 @@ The Hero Image features yellow colours to tie in with the header, it also has co
 
 ![About Us feature](assets/docs/about-us-home.png)
 
-These sections contains text featuring links and an assocciated image. They are fully responsive depending on screen size. On large screens they appear as two colums and two rows, with text on the left followed by the image, then image on the left followed by text. On smaller screens they appear in one column with text followed by the image.
+These sections contain text featuring links and an associated image. They are fully responsive depending on screen size. On large screens they appear as two columns and two rows, with text on the left followed by the image, then image on the left followed by text. On smaller screens they appear in one column with text followed by the image.
 
 ### Google Map iframe:
 
@@ -87,13 +116,13 @@ The home page features a Google Maps iframe where users can see our location.
 
 ![Our Products](assets/docs/products-feature.png)
 
-The products section features information and images of our products. Its fully responsive, showing 4 columns on large screens, reducing to two on smaller screens and one column on mobile screens so as to be eaisily readable.
+The products section features information and images of our products. Its fully responsive, showing 4 columns on large screens, reducing to two on smaller screens and one column on mobile screens so as to be easily readable.
 
 ### Contact Us section:
 
 ![Contact Form](assets/docs/contact-feature.png)
 
-The contact form allows users to get in contact and specify what product they are interested in. It also allows users to submit commets or questions to the site owner.
+The contact form allows users to get in contact and specify what product they are interested in. It also allows users to submit comments or questions to the site owner.
 The form sends the information to https://formdump.codeinstitute.net/ and gives a message that the information has been sent correctly.
 
 ## Testing
@@ -140,7 +169,7 @@ The site was tested on a range of devices including iphone 11 and 13, Samsung Ga
 
 ### Libraries, Frameworks and Programmes:
 - Font Awesome: Used for icons for social media on the footer and bee and phone icon on the contact form.
-- Google Fonts: Used to import the fonts Antonio ans Source Sans Pro used for the headings and paragraphs respectively. A back up of sans-serif was used also.
+- Google Fonts: Used to import the fonts Antonio and Source Sans Pro used for the headings and paragraphs respectively. A back up of sans-serif was used also.
 - Github: Used to store my repository and deploy my page.
 - Gitpod: Used to edit my code and push code to github.
 - Balsamiq: Used to create wireframe mock-ups of the project.
@@ -173,3 +202,17 @@ All images were taken from [pexels.com](https://www.pexels.com/)
 - [Heather flowers on a field](https://www.pexels.com/photo/heather-flowers-on-a-field-5337623/) by Ylanite Koppens
 - [Calluna vulgaris blooming in field](https://www.pexels.com/photo/calluna-vulgaris-blooming-in-field-5407565/) by Kieren Ridley
 
+## Credits
+
+Inspiration was taken from some of the elements used in the love running project and built upon.
+
+A guide to building a responsive header from [frontendgyaan.com](https://frontendgyaan.com/how-to-create-a-responsive-header-menu-with-css/) was used and built upon for this project.
+
+## Acknowledgements
+
+I would like to thank:
+
+- Genevieve and Kathryn for helping with grammar and proof reading.
+- Seán for giving great feedback and spotting issues.
+- My wife Annelise for all the great feedback, advice and support.
+- My Mentor, Mitko Bachvarov for pointing me towards using css grid and all the feedback, advice and support.
