@@ -184,7 +184,7 @@ h4 {
 
 .button {
     font-size: x-large;
-    background-color: white;
+    background-color: #FDF9F0;
     font-family: Source Sans Pro, sans-serif;
     margin: 15px;
     padding: 5px;
@@ -194,8 +194,8 @@ h4 {
 
 .button:hover {
     background-color: darkslategray;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #FDF9F0;
+    color: #FDF9F0;
 }
 
 label {
