@@ -65,8 +65,8 @@ To provide information for people looking for 100% Natural Heather Honey produce
 
 ### Colour Scheme:
 
-The colour palette was chosen with accessibility in mind. The yellow colour #E9CA1B used in both the header and the footer was chosen to represent the golden honey. Text colours of darkslategrey and darkslateblue in combination with the off-white background colour of #F9F9F0 used for the body of the page allow for easy readability while not being overwhelming. The website [mycolor.space](https://mycolor.space/) was used to create the color palette.
 ![Color Palette](/assets/docs/color-palette.png)
+The colour palette was chosen with accessibility in mind. The yellow colour #E9CA1B used in both the header and the footer was chosen to represent the golden honey. Text colours of darkslategrey and darkslateblue in combination with the off-white background colour of #F9F9F0 used for the body of the page allow for easy readability while not being overwhelming. The website [mycolor.space](https://mycolor.space/) was used to create the color palette.
 
 ### Typography:
 
@@ -132,7 +132,7 @@ The form sends the information to https://formdump.codeinstitute.net/ and gives 
 ![html](assets/docs/html-validation.png)
 ![css](assets/docs/css-validation.png)
 
-The code validation was tested using [W3C validator](https://validator.w3.org/) for html, one error was found as I had put height and width attributes into the code for the Google maps iframe, I resolved this by removing the properties from the iframe and changing the height and with properties using css instead and it passed with no issues found.
+The code validation was tested using [W3C validator](https://validator.w3.org/) for html and it passed with no issues found.
 
 The code validation was tested using [Jigsaw validator](https://jigsaw.w3.org/css-validator/) for css with no issues found.
 
@@ -147,16 +147,30 @@ The site was tested on a range of devices including iphone 11 and 13, Samsung Ga
 
 ### Bugs and fixes:
 
-1. Form data not being sent for both name and email fields on contact page.
+1. Expected: Form is expected to send all information when its submitted.
+ - Testing: Filled out form and clicked submit.
+ - Result: Form data not being sent for both name and email fields on contact page.
  - Fix: The inputs for first name, last name and e-mail weren't named. Once these inputs were named correctly the form worked as it should and all information was sent correctly.
-2. The social media icons on mobile were appearing over two lines.
+2. Expected: The footer scales down on mobile screens.
+ - Testing: Used dev tools to see how footer behaves on mobile sized screens.
+ - Result: The social media icons on mobile were appearing over two lines.
  - Fix: Used media query to display the icons at a smaller size on screens below 500px
-3. Header and navigation menu were too big on smaller screens and text appeared outside of the header area.
+3. Expected: The header and navigation menu scale down on mobile screens.
+ - Testing: Used dev tools to see how header behaves on mobile sized screens.
+ - Result: Header and navigation menu were too big on smaller screens and text appeared outside of the header area.
  - Fix: Created a new header and navigation bar using a [guide](https://frontendgyaan.com/how-to-create-a-responsive-header-menu-with-css/) on frontendgyann.com. I reused the logo and nav elements from my previous header and styled it to match my website.
-4. Images and text area appeared too narrow on mission and about section on home page.
- - Fix: Changed the main-page-grid padding from px to % made the page responsive on smaller screens.
-5. Incorrect font used for product banner.
+4. Expected: Images and text area on home page would scale down on mobile sized screens.
+ - Testing: Used dev tools to see how section behaves on mobile sized screens.
+ - Result: Images and text area appeared too narrow on mission and about section on home page on smaller screens.
+ - Fix: Changed the main-page-grid padding from px to % which made the page responsive on smaller screens and the section wasn't too narrow.
+5. Expected: Correct fonts used consistently across all pages.
+ - Testing: Checked font used across all pages.
+ - Result: Found the incorrect font was used on the product banner.
  - Fix: Styled banner heading to the correct font.
+6. Expected: Code validation would pass with no issues found.
+ - Testing: The code validation was tested using [W3C validator](https://validator.w3.org/).
+ - Result: One error was showing for unexpected height and width attribute in the google maps iframe.
+ - Fix: I had put height and width attributes into the code for the Google maps iframe, I resolved this by removing the properties from the iframe and changing the height and with properties using css instead and it passed with no issues found.
 
   There are no know unfixed bugs and the project will now be submitted.
 
