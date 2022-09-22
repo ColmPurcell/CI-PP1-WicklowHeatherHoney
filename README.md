@@ -62,7 +62,7 @@ The Header apperars across all pages. It features a logo and navigation menu whi
 ### Footer with social media links:
 
 ![Footer](assets/docs/footer-feature.png)
-The Footer apperars across all pages. It features social media icons which highlight when a user hovers over them. It is fully responsive on smaller screens.
+The Footer apperars across all pages. It features social media icons which highlight when a user hovers over them and links to the relavent social media pages opening in a new tab. It is fully responsive on smaller screens.
 
 ### Main Page Hero Image:
 
@@ -82,3 +82,36 @@ These sections contains text featuring links and an assocciated image. They are 
 ![Map](assets/docs/map-home.png)
 
 The home page features a Google Maps iframe where users can see our location.
+
+### Our Products section:
+
+![Our Products](assets/docs/products-feature.png)
+
+The products section features information and images of our products. Its fully responsive, showing 4 columns on large screens, reducing to two on smaller screens and one column on mobile screens so as to be eaisily readable.
+
+### Contact Us section:
+
+![Contact Form](assets/docs/contact-feature.png)
+
+The contact form allows users to get in contact and specify what product they are interested in. It also allows users to submit commets or questions to the site owner.
+The form sends the information to https://formdump.codeinstitute.net/ and gives a message that the information has been sent correctly.
+
+## Testing
+
+### Validator Testing:
+
+![html](assets/docs/html-validation.png)
+![css](assets/docs/css-validation.png)
+
+The code validation was tested using [W3C validator](https://validator.w3.org/) for html, one error was found as I had put height and width attributes into the code for the Google maps iframe, I resolved this by removing the properties from the iframe and changing the height and with properties using css instead and it passed with no issues found.
+
+The code validation was tested using [Jigsaw validator](https://jigsaw.w3.org/css-validator/) for css with no issues found.
+
+## Lighthouse Audit:
+
+![Lighthouse](assets/docs/lighthouse-audit.png)
+
+A performance audit was carried out using [web.dev/measure](https://web.dev/measure/) and the site scores high across all areas with scores of 100 for both Accessibility and Best Practices.
+
+The site was tested using Chrome, Safari & Edge browers with no issues.
+The site was tested on a range of devices including iphone 11 and 13, Samsung Galaxy S10 and 
